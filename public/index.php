@@ -1,6 +1,6 @@
 <?php
 ini_set('display_errors', 1);
-// From Git
+// From Git  as
 // var_dump(phpversion());
 // var_dump(file_exists(__DIR__.'/../bootstrap/autoload.php'));
 // var_dump(file_exists(__DIR__ . '/../.env'));
