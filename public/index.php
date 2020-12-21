@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 // var_dump(file_exists(__DIR__ . '/../.env'));
 // var_dump("");
 // var_dump(getenv());
-// die("hello world"); 
+// die("hello world");  
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
