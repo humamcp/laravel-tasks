@@ -1,5 +1,12 @@
 <?php
-
+ini_set('display_errors', 1);
+// From Git
+// var_dump(phpversion());
+// var_dump(file_exists(__DIR__.'/../bootstrap/autoload.php'));
+// var_dump(file_exists(__DIR__ . '/../.env'));
+// var_dump("");
+// var_dump(getenv());
+// die("hello world");
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
