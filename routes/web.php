@@ -56,3 +56,16 @@ Route::delete('/task/{id}', function ($id) {
 
     return redirect('/');
 });
+
+/**
+ * Toggle Task completeness
+ */
+Route::post('/task/{id}', function ($id) {
+    error_log('INFO: post /task/'.$id);
+    $task = Task::findOrFail($id);
+
+    $task->complete = !$task->complete;
+    $task->save();
+
+    return redirect('/');
+});
